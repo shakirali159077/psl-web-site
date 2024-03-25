@@ -8,7 +8,6 @@ body {
 }
 body .icon {
   margin: 0px;
-  background-color: rgb(63, 109, 17);
   height: 40px;
 }
 body .icon .list {
@@ -23,8 +22,9 @@ body .icon .list {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 5px;
+  gap: 7px;
   list-style: none;
+  background: linear-gradient(129deg, rgb(27, 169, 17) 50%, rgb(14, 121, 13) 50%);
 }
 body .icon2 {
   background-color: rgb(46, 82, 11);
@@ -36,6 +36,7 @@ body .icon2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0px 1rem;
+  background: linear-gradient(129deg, rgb(5, 39, 2) 46%, rgb(43, 74, 2) 46%);
 }
 body .icon2 ul {
   list-style: none;
@@ -61,6 +62,7 @@ body .icon2 ul a:hover {
 body .icon3 > div {
   background-color: rgb(54, 97, 10);
   height: 80px;
+  background: linear-gradient(129deg, rgb(15, 88, 10) 40%, rgb(58, 204, 12) 40%);
 }
 body .image2 {
   margin-top: 30px;
@@ -89,22 +91,21 @@ body table.box2 tbody tr td {
 body h2 {
   margin: 20px;
   padding: 2px;
-  color: rgb(32, 54, 11);
+  color: rgb(91, 167, 19);
   text-align: center;
 }
 body .image1 {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 body h3 {
   margin: 20px;
   padding: 2px;
-  color: rgb(32, 54, 11);
+  color: rgb(98, 180, 21);
   text-align: center;
 }
 body .socure {
@@ -135,7 +136,7 @@ body .video {
 }
 body .hidding {
   margin-top: 20px;
-  color: rgb(32, 54, 11);
+  color: rgb(107, 200, 20);
 }
 body .bgimage {
   margin-left: 90px;
@@ -149,15 +150,58 @@ body .image4 {
   margin-left: 80px;
   margin-right: auto;
 }
-body .content > a {
-  margin-left: 10px;
-  list-style: none;
-  text-decoration: none;
+body .logo1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+}
+body .logo1 h3 {
   color: black;
 }
-body .content > a:hover {
-  background-color: rgb(5, 90, 39);
-  color: rgb(250, 240, 240);
+body .logo1 li {
+  list-style: none;
+}
+body .logo1 li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+  margin: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .logo1 li > a:hover {
+  color: rgb(96, 217, 16);
+}
+body .logo1 li img {
+  background: none;
+  border: 1px solid black;
+  padding: 10px;
+  size: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline;
+}
+body .lasticon {
+  margin: 0px;
+}
+body .lasticon .last1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  list-style: none;
 }
 body .footer {
   background-color: rgb(6, 97, 29);

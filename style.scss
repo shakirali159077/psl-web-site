@@ -7,7 +7,9 @@ body {
 
     .icon {
         margin: 0px;
-        background-color: rgb(63, 109, 17);
+        // background-color: rgb(63, 109, 17);
+        // background: linear-gradient(120deg, rgba(40,138,32,1) 50%, rgba(129,212,18,1) 50%);
+
         height: 40px;
 
         // width: 100px;
@@ -17,8 +19,9 @@ body {
             padding-top: 10px;
             padding-right: 10px;
             align-items: center;
-            gap: 5px;
+            gap: 7px;
             list-style: none;
+            background: linear-gradient(129deg, rgb(27, 169, 17) 50%,rgb(14, 121, 13)50%);
 
         }
 
@@ -31,6 +34,8 @@ body {
         display: flex;
         justify-content: space-between;
         padding: 0px 1rem;
+        background: linear-gradient(129deg, rgb(5, 39, 2) 46%, rgb(43, 74, 2) 46%);
+
 
         ul {
             list-style: none;
@@ -56,7 +61,7 @@ body {
     .icon3>div {
         background-color: rgb(54, 97, 10);
         height: 80px;
-
+        background: linear-gradient(129deg, rgba(15,88,10,1) 40%, rgba(58,204,12,1) 40%);
     }
 
     .image2 {
@@ -93,12 +98,12 @@ body {
     h2 {
         margin: 20px;
         padding: 2px;
-        color: rgb(32, 54, 11);
+        color: rgb(91, 167, 19);
         text-align: center;
     }
 
     .image1{
-      justify-content: center;
+    //   justify-content: center;
   display: flex;
   justify-content: center;
     }
@@ -106,7 +111,7 @@ body {
     h3 {
         margin: 20px;
         padding: 2px;
-        color: rgb(32, 54, 11);
+        color: rgb(98, 180, 21);
         text-align: center
     }
 
@@ -137,7 +142,7 @@ body {
 
     .hidding {
         margin-top: 20px;
-        color: rgb(32, 54, 11);
+        color: rgb(107, 200, 20);
      
     }
     .bgimage{
@@ -156,18 +161,55 @@ body {
         margin-left: 80px;
         margin-right: auto;
     }
-    .content>a{
-        margin-left: 10px;
-        list-style: none;
-        text-decoration: none;
+    .logo1{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 80%;
+      h3{
+        // margin-left: 35px;
         color: black;
-      
-        &:hover{
-              background-color: rgb(5, 90, 39);
-            color: rgb(250, 240, 240);
-           
+        
+      }
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: 100;
+            margin: 2px;
+            display: flex;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
         }
+        &>a:hover{
+            color: rgb(96, 217, 16);
+        }
+        img{
           
+            background: none;
+            border: 1px solid black;
+            padding: 10px;
+            size: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            display: inline;
+            
+        }
+    }
+    
+          
+    }
+    .lasticon {
+        margin: 0px;
+       
+        .last1{
+            display: flex;
+             gap: 5px;
+            list-style: none;
+
+        }
+
     }
 
     .footer {
