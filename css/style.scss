@@ -1,18 +1,13 @@
-* {
+
+*{
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
-
     .icon {
         margin: 0px;
-        // background-color: rgb(63, 109, 17);
-        // background: linear-gradient(120deg, rgba(40,138,32,1) 50%, rgba(129,212,18,1) 50%);
-
         height: 40px;
-
-        // width: 100px;
         .list{
             display: flex;
             justify-content: flex-end;
@@ -22,7 +17,7 @@ body {
             gap: 7px;
             list-style: none;
             background: linear-gradient(129deg, rgb(27, 169, 17) 50%,rgb(14, 121, 13)50%);
-
+// justify-content: center;
         }
 
     }
@@ -117,10 +112,10 @@ body {
 
     .socure {
         background-color: rgb(10, 142, 43);
-        height: 90px;
+        height: 100px;
         margin-top: 30px;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 70px;
+        margin-right: 70px;
 
         .number {
             color: white;
@@ -128,7 +123,7 @@ body {
             gap: 120px;
             text-decoration: none;
             list-style: none;
-            font-size: medium;
+            font-size: larger;
             text-align: center;
             justify-content: center;
         }
@@ -136,8 +131,8 @@ body {
 
     .video {
         margin-top: 20px;
-        margin-left: 80px;
-        margin-right: 60px;
+        margin-left: 70px;
+        margin-right: 70px;
     }
 
     .hidding {
@@ -162,10 +157,11 @@ body {
         margin-right: auto;
     }
     .logo1{
-      display: flex;
+    //   display: flex;
       flex-wrap: wrap;
       flex-direction: column;
       width: 80%;
+    //   display: flex;
       h3{
         // margin-left: 35px;
         color: black;

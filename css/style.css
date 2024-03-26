@@ -110,10 +110,10 @@ body h3 {
 }
 body .socure {
   background-color: rgb(10, 142, 43);
-  height: 90px;
+  height: 100px;
   margin-top: 30px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 body .socure .number {
   color: white;
@@ -123,7 +123,7 @@ body .socure .number {
   gap: 120px;
   text-decoration: none;
   list-style: none;
-  font-size: medium;
+  font-size: larger;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -131,8 +131,8 @@ body .socure .number {
 }
 body .video {
   margin-top: 20px;
-  margin-left: 80px;
-  margin-right: 60px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 body .hidding {
   margin-top: 20px;
@@ -151,9 +151,6 @@ body .image4 {
   margin-right: auto;
 }
 body .logo1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-orient: vertical;
